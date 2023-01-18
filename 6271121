@@ -1,0 +1,9 @@
+<script>
+var pw;
+pw = prompt("パスワードを入れて下さい","");
+if (pw == “miyagi"){
+location.href = "000.html";
+}else{
+alert("パスワードが違います");
+}
+</script>
